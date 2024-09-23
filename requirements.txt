@@ -9,3 +9,4 @@ setuptools==75.1.0
 six==1.16.0
 tzdata==2024.1
 wheel==0.44.0
+sqlalchemy~=2.0.35

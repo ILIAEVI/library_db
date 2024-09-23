@@ -17,7 +17,7 @@ The results are saved into an Excel file (`report.xlsx`) and printed to the cons
 ### Prerequisites
 
 - Python 3.x
-- Required Python packages: `pandas`, `openpyxl`, `sqlite3` (included in the Python standard library)
+- Required Python packages: `pandas`, `Faker`, `SQLAlchemy`, `openpyxl`, `sqlite3` (included in the Python standard library)
 
 
 ## Usage
@@ -31,3 +31,12 @@ The results are saved into an Excel file (`report.xlsx`) and printed to the cons
     ```
 
 3. The script will generate an Excel file named `report.xlsx` containing the report and print results to the console.
+
+
+## Usage With SQLAlchemy
+
+   ```bash
+      pip install -r requirements.txt
+
+      python using_sqlalchemy.py
+   ```
